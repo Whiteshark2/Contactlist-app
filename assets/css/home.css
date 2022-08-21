@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    background-color:skyblue;
+
+}
+#heading{
+    font-size:2rem;
+    color: rgb(119, 120, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    animation: Change 2s ease-in-out alternate infinite;
+}
+
+#heading i{
+    font-size: 3rem;
+    color:blue;
+    margin:3px;
+}
+#heading h1{
+    margin:3px;
+    display: inline-block;
+}
+#contactlist{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+#contactlist ul{
+    width: 40%;
+
+}
+#contactlist ul  :hover{
+background-color: rgb(181, 186, 184);
+}
+#contactlist ul li {
+    list-style: none;
+    background-color:rgb(110, 110, 237);
+    display: flex;
+    margin-bottom: 10px;
+}
+.details {
+    display: flex;
+    width:90%;
+    justify-content: space-between;
+}
+.details p{
+    padding:10px;
+    margin:0;
+    font-size:1.5rem;
+    color:#fff;
+    font-size: 2rem;
+    font-family:sans-serif;
+}
+.delete-button {
+    width: 10%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+}
+.delete-button a i{
+    font-size: 2rem;
+    float:right;
+    padding: 2px;
+    background-color:rgb(253, 1, 1);
+    color:white;
+}
+.delete-button a i:hover{
+    color:black;
+}
+/* #new-form{
+} */
+#new-form input{
+    padding:10px;
+    width:20%;
+    border:0;
+    border-bottom: 2px solid black;
+    color:blue;
+}
+#new-form button{
+    font-size:1rem;
+	background-color: black;
+	color:white;
+	border-radius:10%;
+	padding:7px;
+    margin-left:20px;
+}
